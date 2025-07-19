@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/JsonToExcel/JsonToExcel.csproj": {}
+    "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/OpenXMLUtility/OpenXMLUtility.csproj": {}
   },
   "projects": {
-    "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/JsonToExcel/JsonToExcel.csproj": {
+    "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/OpenXMLUtility/OpenXMLUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/JsonToExcel/JsonToExcel.csproj",
-        "projectName": "JsonToExcel",
-        "projectPath": "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/JsonToExcel/JsonToExcel.csproj",
+        "projectUniqueName": "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/OpenXMLUtility/OpenXMLUtility.csproj",
+        "projectName": "OpenXMLUtility",
+        "projectPath": "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/OpenXMLUtility/OpenXMLUtility.csproj",
         "packagesPath": "/Users/anandneema/.nuget/packages/",
-        "outputPath": "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/JsonToExcel/obj/",
+        "outputPath": "/Users/anandneema/RiderProjects/Utilities/JsonToExcel/OpenXMLUtility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/anandneema/.nuget/NuGet/NuGet.Config"
@@ -44,9 +44,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Aspose.Cells": {
+            "DocumentFormat.OpenXml": {
               "target": "Package",
-              "version": "[25.1.2, )"
+              "version": "[3.3.0, )"
             }
           },
           "imports": [
